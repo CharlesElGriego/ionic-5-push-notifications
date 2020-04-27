@@ -1,0 +1,51 @@
+{
+  "javascript.referencesCodeLens.enabled": true,
+  "typescript.referencesCodeLens.enabled": true,
+  "typescript.referencesCodeLens.showOnAllFunctions": true,
+  "javascript.referencesCodeLens.showOnAllFunctions": true,
+
+  "javascript.preferences.quoteStyle": "single",
+  "typescript.preferences.quoteStyle": "single",
+  "editor.formatOnSave": true,
+  "editor.codeActionsOnSave": {
+    "source.organizeImports": true,
+    "source.fixAll": true
+  },
+  "[html]": {
+    "editor.defaultFormatter": "vscode.html-language-features"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "typescriptHero.imports.organizeOnSave": false,
+  "explorer.compactFolders": false,
+  "typescriptHero.imports.insertSemicolons": true,
+  "tslint.autoFixOnSave": true,
+
+  "editor.formatOnPaste": true,
+  "editor.fontLigatures": true,
+  "editor.fontFamily": "'Fira Code'",
+  "editor.cursorSmoothCaretAnimation": true,
+
+  "explorer.sortOrder": "type",
+  "files.trimFinalNewlines": true,
+  "editor.mouseWheelZoom": true,
+  "files.insertFinalNewline": true,
+
+  "breadcrumbs.enabled": true,
+  "window.titleBarStyle": "native",
+  "window.menuBarVisibility": "toggle",
+  "window.title": "${activeEditorMedium}${separator}${rootName}",
+  "files.autoSave": "off",
+
+  "files.watcherExclude": {
+    "**/.git/objects/**": true,
+    "**/.git/subtree-cache/**": true,
+    "**/node_modules/*/**": true
+  },
+  "tslint.rulesDirectory": "./node_modules/codelyzer",
+  "typescript.tsdk": "node_modules/typescript/lib"
+}
