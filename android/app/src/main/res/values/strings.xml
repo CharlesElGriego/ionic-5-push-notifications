@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">ionicPush</string>
+    <string name="title_activity_main">ionicPush</string>
+    <string name="package_name">com.ionic.notifications</string>
+    <string name="custom_url_scheme">com.ionic.notifications</string>
+</resources>
