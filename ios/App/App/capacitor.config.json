@@ -1,1 +1,8 @@
-{}
+{
+  "appId": "com.ionic.notifications",
+  "appName": "ionicPush",
+  "bundledWebRuntime": false,
+  "npmClient": "npm",
+  "webDir": "www",
+  "cordova": {}
+}
